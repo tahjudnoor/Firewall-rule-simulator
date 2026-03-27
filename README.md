@@ -1,6 +1,7 @@
 # 🔐 Firewall Rule Simulator
 
 A Flask-based web application that simulates how a firewall filters network traffic using rule-based logic.
+![Demo](https://github.com/tahjudnoor/Firewall-rule-simulator/blob/68976130f65a2834f80bbd4a6a7bc4faed6397ba/Screenshot%202026-03-27%20131120.png)
 
 ## 🚀 Overview
 This project demonstrates how firewalls inspect incoming packets and decide whether to **ALLOW** or **DENY** traffic based on rules. It follows real-world concepts like CIDR-based IP matching, protocol filtering, and default deny (Zero Trust).
