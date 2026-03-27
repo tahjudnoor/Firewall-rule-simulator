@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>Firewall Rule Simulator</title></head>
+<body>
+    <h1>🛡️ Firewall Rule Simulator</h1>
+    <form method="post">
+        Protocol: <input name="protocol" value="TCP"><br>
+        Source IP: <input name="source" value="192.168.1.10"><br>
+        Destination IP: <input name="destination" value="10.0.0.5"><br>
+        Port: <input name="port" value="80"><br>
+        <button type="submit">Simulate</button>
+    </form>
+
+    {% if result %}
+    <h2>Result: {{ result }}</h2>
+    {% if matched_rule %}
+        <p>Matched Rule: {{ matched_rule }}</p>
+    {% endif %}
+    {% endif %}
+</body>
+</html>

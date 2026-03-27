@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "protocol": "TCP",
+    "source": "192.168.1.0/24",
+    "destination": "ANY",
+    "port": 443,
+    "action": "ALLOW"
+  },
+  {
+    "id": 2,
+    "protocol": "TCP",
+    "source": "ANY",
+    "destination": "ANY",
+    "port": 80,
+    "action": "DENY"
+  },
+  {
+    "id": 3,
+    "protocol": "ANY",
+    "source": "ANY",
+    "destination": "ANY",
+    "port": "ANY",
+    "action": "DENY"
+  }
+]
