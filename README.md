@@ -22,4 +22,15 @@ This project demonstrates how firewalls inspect incoming packets and decide whet
 3. Rules are checked top → bottom
 4. First matching rule is applied (ALLOW / DENY)
 5. If no rule matches → DENY
+  
+ ## ▶️ Run Locally
+```bash
+pip install flask
+python app.py
+```
+## 👨‍💻 Author
 
+**Tahjud Noor**  
+BTech CSE | Cybersecurity Enthusiast  
+
+🔗 LinkedIn: https://www.linkedin.com/in/your-link-here
